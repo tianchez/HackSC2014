@@ -1,7 +1,6 @@
 package tutorial.com.hackschools.hacksc2014;
 
 import android.app.Activity;
-import android.app.ActionBar;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
 
 
 public class LogIn_Activity extends Activity {
@@ -59,7 +57,7 @@ public class LogIn_Activity extends Activity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_log_in_, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_log_in_1, container, false);
             return rootView;
         }
     }
